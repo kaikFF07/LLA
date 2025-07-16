@@ -146,7 +146,6 @@ images.forEach((imgData, index) => {
 });
 
 // Função para animar as imagens flutuantes
-// Função para animar as imagens flutuantes
 function animateFloating() {
   floatingImages.forEach(imgObj => {
     const nextX = imgObj.x + imgObj.vx;
@@ -191,7 +190,7 @@ function animateFloating() {
 
 function initializeFloatingImages() {
   // Definir uma velocidade constante para todas as imagens
-  const constantSpeed = 0.01; // Velocidade constante para as imagens
+  const constantSpeed = 0.000000000001; // Velocidade constante para as imagens
 
   floatingImages.forEach((imgData, index) => {
     const img = document.createElement('img');
@@ -221,8 +220,6 @@ function initializeFloatingImages() {
   });
 }
 
-// Iniciar imagens com velocidade constante
-initializeFloatingImages();
 
 function enterSelectedMode() {
   mode = 'selected';
@@ -392,16 +389,6 @@ function exitSelectedMode() {
   animateFloating();
 }
 
-window.onload = function () {
-  const popup = document.getElementById('entry-popup');
-  const enterButton = document.getElementById('enter-button');
-
-  enterButton.addEventListener('click', () => {
-    // Esconde o popup
-    popup.style.display = 'none';
-  });
-};
-
 function checkCollision(imgObj) {
   return floatingImages.some(otherImgObj => {
     if (imgObj === otherImgObj) return false; // Ignora a verificação da própria imagem
@@ -409,6 +396,7 @@ function checkCollision(imgObj) {
     return distance < 80; // Ajuste o valor conforme o tamanho da imagem (80px no caso)
   });
 }
+
 window.onload = function () {
   const popup = document.getElementById('entry-popup');
   const enterButton = document.getElementById('enter-button');
@@ -422,6 +410,7 @@ window.onload = function () {
     showBlackScreenWithCaption();
   });
 };
+
 
 function showBlackScreenWithCaption() {
   // Criar o container para a tela preta
