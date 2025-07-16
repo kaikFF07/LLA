@@ -429,7 +429,7 @@ function showBlackScreenWithCaption() {
 
   // Criar a legenda
   const caption = document.createElement('div');
-  caption.textContent = "Primeiramente eu quero dizer que esse site foi desenvolvido por Kaik/GPT, portanto, não espere que tenha ficado 100%. Eu tentei deixei da forma que eu mais gostei, de acordo com as minhas limitações, porém, com certeza eu vou fazer um melhor quando eu realmente souber programar,aguarde. Esse site foi desenvolvido com o intuito de demonstrar o quanto eu te amo, eu queria te dar algo que eu realmente fiz, não que eu não tenha feito as outras coisas, mas queria algo criado por mim, entende? Espero que goste, eu te amo muito Lívia, muito mesmo!";
+  caption.textContent = "Primeiramente, quero dizer que esse site foi desenvolvido por Kaik/GPT, portanto, não espere que tenha ficado 100%. Eu tentei deixar da melhor forma possível, de acordo com as minhas limitações, porém, com certeza eu vou fazer um melhor quando eu realmente souber programar,aguarde. Esse site foi desenvolvido com o intuito de demonstrar o quanto eu te amo, eu queria te dar algo que eu realmente criei, não que eu não tenha feito as outras coisas, mas queria algo criado por mim, entende? Espero que goste, eu te amo muito Lívia, muito mesmo!";
   caption.style.color = '#fff';
   caption.style.fontSize = '1rem';
   caption.style.fontFamily = 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
