@@ -183,13 +183,16 @@ html, body {
 /* Responsividade para telas menores (dispositivos móveis) */
 @media screen and (max-width: 768px) {
   #space-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
-  #date-time-container {
+   #date-time-container {
     top: 70px;
-    font-size: 1rem;
+    font-size: 0.8rem;  /* Diminuído para se ajustar melhor no mobile */
+    display: flex;
+    justify-content: center;  /* Alinha ambos os elementos horizontalmente */
   }
+}
 
   #floating-images-container {
     pointer-events: none; /* Impede interação enquanto em modo flutuante */
