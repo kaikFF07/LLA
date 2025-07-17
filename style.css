@@ -13,14 +13,14 @@ html, body {
   transform: translateX(-50%);
   font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
-  font-size: 0.5rem;  /* Diminuído de 2.2rem para 2rem */
+  font-size: 0.4rem;  
   color: #4af6ff;
   text-shadow:
     0 0 6px #4af6ff,
     0 0 12px #4af6ff,
     0 0 18px #00ffff,
     0 0 30px #00ffff;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   user-select: none;
   z-index: 30;
   pointer-events: none;
